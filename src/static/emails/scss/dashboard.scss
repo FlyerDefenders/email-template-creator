@@ -1,0 +1,78 @@
+@import 'settings';
+
+.dashboard {
+
+  & .wrapper-inner {
+    padding: 26px 15px 13px 36px;
+
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      padding: 26px 0 15px;
+    }
+  }
+
+  & .container {
+    margin: 0;
+  }
+
+  & .columns {
+    padding-bottom: 0;
+  }
+
+  &__box {
+    width: 192px;
+  }
+
+  &__ori-des {
+    margin: 0;
+  }
+
+  &__terminal {
+    color: $primary-color;
+    font-family: futuraLight;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__fix-gate {
+    margin-left: 10px;
+
+    &--title {
+       margin-right: 10px;
+    }
+  }
+
+  &__city {
+    margin: 0;
+
+  }
+
+  &__date {
+    margin: 23px 0 0;
+  }
+
+  &__time {
+    margin: 0;
+  }
+
+  &__gate {
+    font-family: gil;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 18px;
+    }
+
+    &--title {
+      font-family: gil;
+      @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &__origin-column {
+    padding-right: 150px !important;
+  }
+}
+
+.divider {
+  margin: 26px 0 10px;
+}

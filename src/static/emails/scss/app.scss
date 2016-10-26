@@ -1,0 +1,82 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'flight';
+@import 'header';
+@import 'body';
+@import 'download';
+@import 'dashboard';
+@import 'status';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  //font-family: gil;
+  font-family: futuraLight;
+}
+
+body,
+p,
+a {
+  font-family: futuraLight;
+  font-size: $global-font-size;
+}
+
+.blue {
+  color: $primary-color;
+}
+
+.primary-background {
+  background-color: $primary-color;
+  width: 100%;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-block {
+  display: block;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-complementary {
+  color: $complementary-color;
+  font-family: gil;
+  font-weight: bold;
+}
+
+.clouds-title {
+  color: $primary-color;
+}
+
+.small-columns {
+  &--right {
+    & tr {
+      text-align: right;
+    }
+  }
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  h4 {font-size: 18px}
+  h5 {font-size: 16px}
+
+  a,
+  p {font-size: 16px}
+
+  .text-small {font-size: 12px}
+}
