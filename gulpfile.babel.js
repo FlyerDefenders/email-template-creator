@@ -24,7 +24,7 @@ var CONFIG;
 
 // Build the "dist" folder by running all of the above tasks
 gulp.task('build',
-  gulp.series(clean, pages, sass, images, fonts, jsonReplace));
+  gulp.series(clean, pages, sass, images, fonts, inline, jsonReplace));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default',
@@ -146,12 +146,8 @@ function inliner(css) {
       removeLinkTags: false
     })
     .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
-    .pipe($.replace, '<link rel="stylesheet" type="text/css" href="static/emails/css/app.css">', '')
-    .pipe($.htmlmin, {
-      collapseWhitespace: true,
-      minifyCSS: true
-    });
-
+    .pipe($.replace, '<link rel="stylesheet" type="text/css" href="static/emails/css/app.css">', '');
+ 
   return pipe();
 }
 

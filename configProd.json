@@ -34,7 +34,7 @@
         "alert_des-city-name": "{{ tracker.carrier.flight.destination.city }}, ",
         "alert_des-city-code": "{{ tracker.carrier.flight.destination.country_code }}",
         "alert_des-date": "{{ tracker.carrier.flight.arrival_local_time|date:user.get_profile.get_date_format_web }}",
-        "alert_des-time": "{{ tracker.carrier.flight.arrival_local_time|time:user.get_profile.get_time_format }}{% if tracker.carrier.flight.diverted_airport %}{{ tracker.carrier.flight.diverted_airport.country_code }}T{% else %}{{ tracker.carrier.flight.destination.country_code }}T{% endif %}",
+        "alert_des-time": "{{ tracker.carrier.flight.arrival_local_time|time:user.get_profile.get_time_format }}{% if tracker.carrier.flight.diverted_airport %} {{ tracker.carrier.flight.diverted_airport.country_code }}T{% else %} {{ tracker.carrier.flight.destination.country_code }}T{% endif %}",
         "alert_des-terminal-text": "{% trans 'Terminal' %}",
         "alert_des-gate-text": "{% trans 'Gate' %}",
         "alert_des-band-text": "{% trans 'Baggage' %}",
