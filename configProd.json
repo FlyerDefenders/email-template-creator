@@ -84,7 +84,7 @@
         "ac_title": "{% trans 'Welcome to Flyers Concierge!' %}",
         "ac_text_1": "{% trans 'You change your email, you need to confirm your email address by clicking on the button below and start receiving our alert notifications flight.' %}",
         "ac_btn_text": "{% trans 'Confirm email' %}",
-        "ac_btn_link": "{{ HOSTNAME_PROTOCOL }}/accounts/validate/email/{{id}}/{{hash}}/{{email}}/",
+        "ac_btn_link": "{{ HOSTNAME_PROTOCOL }}/accounts/validate_email/{{id}}/{{hash}}/{{email}}/",
         "ac_text_2": "{% trans 'You can not see the button?. Copy and paste into your browser the following link:' %}",
         "ac_text_3": "{% trans 'Regards' %}, ",
         "ac_text_4": "{% trans 'The Flyers Concierge team' %}",
