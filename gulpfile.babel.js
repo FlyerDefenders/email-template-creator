@@ -13,6 +13,7 @@ import merge    from 'merge-stream';
 import beep     from 'beepbeep';
 import colors   from 'colors';
 import jr       from 'gulp-json-replace';
+import prettify from 'gulp-html-prettify';
 
 const $ = plugins();
 
@@ -65,6 +66,7 @@ function pages() {
       helpers: 'src/helpers'
     }))
     .pipe(inky())
+    .pipe(prettify({indent_char: ' ', indent_size: 2}))
     .pipe(gulp.dest('dist'));
 }
 
@@ -147,7 +149,7 @@ function inliner(css) {
     })
     .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
     .pipe($.replace, '<link rel="stylesheet" type="text/css" href="static/emails/css/app.css">', '');
- 
+
   return pipe();
 }
 
