@@ -10,7 +10,7 @@
   & .wrapper-inner {
     border-bottom: 8px solid $primary-color;
     border-top: 4px solid $primary-color;
-    padding: 17px 15px 15px 36px;
+    padding: 17px 15px 15px;
   }
 
   & .columns {
@@ -23,7 +23,7 @@
     margin: 16px 0 0;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 14px !important;
+      font-size: 12px !important;
     }
   }
 
@@ -34,7 +34,7 @@
     line-height: 30px;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 30px !important;
+      font-size: 29px !important;
       letter-spacing: 1px !important;
       margin-bottom: 25px !important;
     }
