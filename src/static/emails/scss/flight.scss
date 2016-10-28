@@ -6,7 +6,7 @@
     margin: 0;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      margin: 10px 0 0 10px;
+      margin: 10px 0 0 10px !important;
     }
   }
 
@@ -14,7 +14,7 @@
     padding: 17px 15px 15px 36px;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      padding: 0;
+      padding: 0 !important;
     }
   }
 
@@ -27,7 +27,7 @@
     margin: 0;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      margin: 7px 0 0;
+      margin: 7px 0 0 !important;
     }
   }
 
@@ -39,6 +39,6 @@
 
 @media only screen and (max-width: #{$global-breakpoint}) {
   th.columns .tracker-link {
-    margin-right: 10px;
+    margin-right: 10px !important;
   }
 }

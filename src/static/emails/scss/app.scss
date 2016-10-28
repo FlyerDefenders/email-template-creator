@@ -75,13 +75,13 @@ a {
 .split-text {display: none}
 
 @media only screen and (max-width: #{$global-breakpoint}) {
-  h4 {font-size: 18px}
-  h5 {font-size: 16px}
+  h4 {font-size: 18px !important}
+  h5 {font-size: 16px !important}
 
   a,
   p {font-size: 16px}
 
-  .text-small {font-size: 12px}
-  .full-text { display: none}
-  .split-text {display: block}
+  .text-small {font-size: 12px !important}
+  .full-text { display: none !important}
+  .split-text {display: block !important}
 }

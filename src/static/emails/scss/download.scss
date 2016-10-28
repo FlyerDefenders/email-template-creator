@@ -23,7 +23,7 @@
     margin: 16px 0 0;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 14px;
+      font-size: 14px !important;
     }
   }
 
@@ -34,9 +34,9 @@
     line-height: 30px;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 30px;
-      letter-spacing: 1px;
-      margin-bottom: 25px;
+      font-size: 30px !important;
+      letter-spacing: 1px !important;
+      margin-bottom: 25px !important;
     }
   }
 
@@ -53,10 +53,10 @@ img.download__img-market {
 
 @media only screen and (max-width: #{$global-breakpoint}) {
   table.body img.download__img-market {
-    display: block;
-    height: 35px;
-    width: 122px;
-    margin: 0 0 9px;
+    display: block !important;
+    height: 35px !important;
+    width: 122px !important;
+    margin: 0 0 9px !important;
   }
 }
 

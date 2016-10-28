@@ -6,7 +6,7 @@
     padding: 26px 15px 13px 36px;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      padding: 26px 0 15px;
+      padding: 26px 0 15px !important;
     }
   }
 
@@ -57,13 +57,13 @@
   &__gate {
     font-family: gil;
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 18px;
+      font-size: 18px !important;
     }
 
     &--title {
       font-family: gil;
       @media only screen and (max-width: #{$global-breakpoint}) {
-        font-size: 14px;
+        font-size: 14px !important;
       }
     }
   }
