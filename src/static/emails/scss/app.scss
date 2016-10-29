@@ -6,6 +6,7 @@
 @import 'download';
 @import 'dashboard';
 @import 'status';
+@import 'unsubscribe';
 
 h1,
 h2,
@@ -75,13 +76,13 @@ a {
 .split-text {display: none}
 
 @media only screen and (max-width: #{$global-breakpoint}) {
-  h4 {font-size: 18px !important}
-  h5 {font-size: 16px !important}
+  h4 {font-size: 16px !important}
+  h5 {font-size: 14px !important}
 
   a,
   p {font-size: 16px}
 
-  .text-small {font-size: 12px !important}
+  .text-small {font-size: 10px !important}
   .full-text { display: none !important}
   .split-text {display: block !important}
 }
