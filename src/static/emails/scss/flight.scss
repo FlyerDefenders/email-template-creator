@@ -11,10 +11,10 @@
   }
 
   & .wrapper-inner {
-    padding: 17px 15px 15px 36px;
+    padding: 5% 10%;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      padding: 0 !important;
+      padding: 5% 10% !important;
     }
   }
 

@@ -3,7 +3,7 @@
 .dashboard {
 
   & .wrapper-inner {
-    padding: 26px 15px 13px 36px;
+    padding: 5% 10%;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
       padding: 26px 0 15px !important;
@@ -31,6 +31,9 @@
     font-family: futuraLight;
     font-weight: bold;
     margin: 0;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 45px !important;
+    }
   }
 
   &__fix-gate {
@@ -48,16 +51,22 @@
 
   &__date {
     margin: 23px 0 0;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 18px !important;
+    }
   }
 
   &__time {
     margin: 0;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 18px !important;
+    }
   }
 
   &__gate {
     font-family: gil;
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 18px !important;
+      font-size: 25px !important;
     }
 
     &--title {

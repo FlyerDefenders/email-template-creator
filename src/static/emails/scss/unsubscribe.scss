@@ -3,10 +3,10 @@
 .unsubscribe {
 
   & .wrapper-inner {
-    padding: 26px 5px 13px 36px;
+    padding: 5% 10% !important;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
-      padding-left: 5px !important;
+      padding-left: 5% 10% !important;
     }
   }
 
