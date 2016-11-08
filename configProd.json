@@ -16,7 +16,7 @@
         "alert_message": "{{ message }}",
         "alert_flight-number": "{{ tracker.carrier.airline.code }}{{ tracker.carrier.number }} {% trans 'of' %}",
         "alert_flight-airline": "{{ tracker.carrier.airline.name }}",
-        "alert_flight-shared": "{% if tracker.user.email != recipient.email %}<p class='flight__shared text-small'>{% trans 'Shared by' %} {{ user.get_full_name_or_email }}</p>{% endif %}",
+        "alert_flight-shared": "{% if tracker.user.email != recipient.identity %}<p class='flight__shared text-small'>{% trans 'Shared by' %} {{ user.get_full_name_or_email }}</p>{% endif %}",
         "alert_origin": "{% trans 'Departure' %}",
         "alert_ori-airport-code": "{{ tracker.carrier.flight.origin.code }}",
         "alert_ori-terminal-code": "{{ tracker.carrier.flight.departure_terminal|default:'-' }}",
