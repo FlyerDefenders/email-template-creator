@@ -1,5 +1,5 @@
 {
-    "hotel_confirmation": {
+    "hotel_confirmation.html": {
         "title": "¡La reserva se ha confirmado!",
         "message": "Juan de los Palotes, su reserva se encuentra garantizada. Sus datos personales serán enviados al hotel 24 hs antes de la fecha de ingreso.",
         "reference_number_text": "Número de referencia de reserva del proveedor",

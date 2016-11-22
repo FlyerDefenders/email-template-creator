@@ -1,7 +1,7 @@
 {
-    "hotel_confirmation": {
+    "hotel_confirmation.html": {
         "title": "{% trans 'The reservation has been confirmed!' %}",
-        "message": "{% trans 'your reservation is guaranteed. Your personal data will be sent to the hotel 24 hours before the date of entry' %}",
+        "message": "{{ booking.contact_name }} {% trans 'your reservation is guaranteed. Your personal data will be sent to the hotel 24 hours before the date of entry' %}",
         "reference_number_text": "{% trans 'Supplier reservation reference number' %}",
         "email_text": "{% trans 'Email' %}",
         "ref_from_provider": "{{ booking.ref_from_provider }}",
@@ -41,8 +41,8 @@
         "banner_include": "{{ banner_html | safe }}"
     },
     "hotel_cancel.html": {
-        "title": "{% trans 'The reservation has been confirmed!' %}",
-        "message": "{% blocktrans %}{{ booking.contact_name }} Your reservation at the hotel {{ booking.hotel_name }} has been successfully aborted.{% if cancellation %} According to the conditions of the reservation that you had selected you will have to pay {{ cancellation.value }} {{ cancellation.currency }} that will be automatically debited from the card that you used as guarantee.<BR>{% endif %}{% endblocktrans %}",
+        "title": "{% trans 'The reservation has been canceled!' %}",
+        "message": "{% blocktrans with contact_name=booking.contact_name hotel_name=booking.hotel_name %}{{ contact_name }} your reservation at the hotel {{ hotel_name }} has been successfully aborted{% endblocktrans %}.{% if cancellation %} {% blocktrans with cancellation_value=cancellation.value cancellation_currency=cancellation.currency %}According to the conditions of the reservation that you had selected you will have to pay {{ cancellation_value }} {{ cancellation_currency }} that will be automatically debited from the card that you used as guarantee{% endblocktrans %}.<BR>{% endif %}",
         "cancel_status": "{% trans 'Canceled' %}",
         "hotel_image": "{{ booking.image|safe }}",
         "hotel_name": "{{ booking.hotel_name }}",
