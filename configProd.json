@@ -183,7 +183,7 @@
         "tracker_owner": "{{ tracker_owner.full_name_or_email }}",
         "password": "{{ password }}",
         "message_invitation": "{{ tracker_owner.get_full_name_or_email }} {% trans 'has shared the travel details to' %} {{ tracker.carrier.flight.destination.city }}",
-        "message_info": "{% blocktrans with sign_in_url=sign_in_url %}You will receive flight alerts in your email with all updates of what happens to the flight that you have been sharing. You can also follow the web by entering <a href='{{ sign_in_url }}'>here</a> with the following data{% endblocktrans %}:",
+        "message_info": "{% blocktrans with sign_in_url=sign_in_url %}You will receive flight alerts in your email with all updates of what happens to the flight that they shared you. You can also follow on the web by entering <a href='{{ sign_in_url }}'>here</a> with the following data{% endblocktrans %}:",
         "credentials_user": "<b style='color: #43a6f7;'>{% trans 'User' %}</b>: <strong>{{ user.email }}</strong>",
         "credentials_password": "<b style='color: #43a6f7;'>{% trans 'password' %}</b>: <strong>{{ password }}</strong>",
         "alert_flight-number": "{{ tracker.carrier.airline.code }}{{ tracker.carrier.number }} {% trans 'of' %}",
