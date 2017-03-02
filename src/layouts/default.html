@@ -33,7 +33,9 @@
 
               {{> body }}
 
-              {{> download_app }}
+              {{#block "download_app"}}
+                {{> download_app }}
+              {{/block}}
 
               {{> banner }}
 

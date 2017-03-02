@@ -226,5 +226,18 @@
         "download_link_2": "#",
         "download_img_link_2": "/static/emails/images/market_badges/android_market_es.png",
         "banner_include": "<img src='static/emails/images/banner.png'>"
+    },
+    "app_download.html": {
+        "title": "App download",
+        "header_title": "Welcome to Flyers Concierge!",
+        "header_link": "https://www.flyersconcierge.com/",
+        "banner_include": "<img src='static/emails/images/banner.png'>",
+        "text_before_button": "Thank you for requesting the download link for the Flyers Concierge App. Just open this email on your cell phone or tablet and click on the button below.",
+        "download_btn_link": "#",
+        "download_btn_text": "Download the Free App",
+        "text_after_button_1": "- Receive all your flight status alerts on your mobile and stay informed in real time.",
+        "text_after_button_2": "- Search all the information, maps and regulations of your destination airport.",
+        "text_after_button_3": "- Get exclusive deals for the App in the reservation of hotels and activities.",
+        "text_after_button_4": "- Keep your family and friends informed about your trip."
     }
 }

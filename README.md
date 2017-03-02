@@ -44,10 +44,6 @@ emails no se corten.(Me pasaba que un link de una imagen se rompia por un salto 
 el navegador)
 * copia y pegar el resultado en el template correspondiente y listo.
 
-TODO:
-1) El proceso es engorroso, se podria mejorar si no compilara el html en una linea, imagino que se
-puede sacar eso de gulp.
-
 
 [1]
 [Formatter](http://www.freeformatter.com/html-formatter.html)
