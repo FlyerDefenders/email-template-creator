@@ -34,19 +34,18 @@ Run `npm run litmus` to build as above, then submit to litmus for testing. *AWS 
 
 Run `npm run zip` to build as above, then zip HTML and images for easy deployment to email marketing services.
 
-USO FC.
+## USO FC.
+
+
 * En la carpeta layouts esta el base, de cual heredan todas los templates en la carpeta pages.
 * En la carpeta pages estan los 4 emails nuestros + index que es el ejemplo que esta roto.
 * En la carpeta partials estan los pedazos de template que se usa en las pages.
-* Corriendo el comando npm run build, cada cambio que se haga te regenera en la carpeta dist el
+* Corriendo el comando `npm run prod`, cada cambio que se haga te regenera en la carpeta dist el
 html compilado, este para los mails debe ser formateado por alguna herramienta[1] online para que los
 emails no se corten.(Me pasaba que un link de una imagen se rompia por un salto de linea que generaba
 el navegador)
 * copia y pegar el resultado en el template correspondiente y listo.
 
-TODO:
-1) El proceso es engorroso, se podria mejorar si no compilara el html en una linea, imagino que se
-puede sacar eso de gulp.
 
 
 [1]
