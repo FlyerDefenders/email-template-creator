@@ -46,7 +46,9 @@
 
   &__city {
     margin: 0;
-
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 15px !important;
+    }
   }
 
   &__date {
