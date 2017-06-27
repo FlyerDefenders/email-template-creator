@@ -1,0 +1,15 @@
+<spacer size="20"></spacer>
+<container>
+    <row class="collapse">
+        <columns small="12" large="12">
+
+            <p class="font_car">
+                <strong>%%drop_off_text</strong>: %%drop_off <br>
+                <strong>%%address_text</strong>: %%drop_address <br>
+            </p>
+            <center>
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=%%drop_latitude,%%drop_longitude&zoom=12&size=400x200&markers=color:red%7Clabel:H%7C%%drop_latitude,%%drop_longitude&key=%%apikey">
+            </center>
+        </columns>
+    </row>
+</container>

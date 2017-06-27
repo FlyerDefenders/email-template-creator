@@ -28,10 +28,36 @@
   }
 
   &__title {
-    color: $complementary-color;
+    color: $primary-color;
     font-family: gil;
     font-weight: bold;
     line-height: 30px;
+
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 29px !important;
+      letter-spacing: 1px !important;
+      margin-bottom: 25px !important;
+    }
+  }
+
+    &__status {
+    color: $alert-color;
+    font-family: gil;
+    font-weight: bold;
+    line-height: 30px;
+
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      font-size: 29px !important;
+      letter-spacing: 1px !important;
+      margin-bottom: 25px !important;
+    }
+  }
+
+  &__message {
+    color: $black;
+    font-family: futuraLight;
+    font-weight: bold;
+    line-height: 24px;
 
     @media only screen and (max-width: #{$global-breakpoint}) {
       font-size: 29px !important;
