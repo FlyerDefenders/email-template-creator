@@ -1,5 +1,9 @@
 @import 'settings';
 
+.container {
+  max-width: 100%;
+}
+
 .content-email {
 
   & .wrapper-inner {
@@ -71,8 +75,8 @@
   }
 
   & .container {
-    padding-top: 200% !important; 
-    
+    padding-top: 200% !important;
+
   }
 
 
@@ -92,8 +96,8 @@
   }
 
   & .container {
-    padding-top: 200% !important; 
-    
+    padding-top: 200% !important;
+
   }
 
 
@@ -113,8 +117,8 @@
   }
 
   & .container {
-    padding-top: 200% !important; 
-    
+    padding-top: 200% !important;
+
   }
 
 
