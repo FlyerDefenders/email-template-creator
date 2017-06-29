@@ -2,18 +2,9 @@
 
 .content-email {
 
-  & .wrapper-inner {
-    padding: 5% 10% !important;
-
-    @media only screen and (max-width: #{$global-breakpoint}) {
-      padding-left: 5% 10% !important;
-    }
-  }
-
   & .container {
     margin: 0;
   }
-
 
   & .columns {
     padding-bottom: 0;
@@ -71,8 +62,8 @@
   }
 
   & .container {
-    padding-top: 200% !important; 
-    
+    padding-top: 200% !important;
+
   }
 
 
@@ -92,8 +83,8 @@
   }
 
   & .container {
-    padding-top: 200% !important; 
-    
+    padding-top: 200% !important;
+
   }
 
 
@@ -113,8 +104,8 @@
   }
 
   & .container {
-    padding-top: 200% !important; 
-    
+    padding-top: 200% !important;
+
   }
 
 
