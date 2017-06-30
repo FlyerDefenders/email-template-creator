@@ -2,14 +2,16 @@
 <container>
     <row class="collapse">
         <columns small="12" large="12">
-            <h3><p class="font_message"><strong>%%map_title_text</strong></p></h3>
+            <h3><p class="font_message"><strong>%%pick_and_drop_title</strong></p></h3>
             <p class="font_car">
                 <strong>%%pick_up_text</strong>: %%pick_up <br>
                 <strong>%%address_text</strong>: %%pick_address <br>
             </p>
-            <center>
-                <img src="https://maps.googleapis.com/maps/api/staticmap?center=%%pick_latitude,%%pick_longitude&zoom=12&size=400x200&markers=color:red%7Clabel:H%7C%%pick_latitude,%%pick_longitude&key=%%apikey">
-            </center>
+            %%if_pick_map
+                <center>
+                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=%%pick_latitude,%%pick_longitude&zoom=12&size=400x200&markers=color:red%7Clabel:H%7C%%pick_latitude,%%pick_longitude&key=%%apikey">
+                </center>
+            %%endif_pick_map
         </columns>
     </row>
 </container>
