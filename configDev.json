@@ -115,12 +115,7 @@
         "checkin": "Martes 10 de Enero 2017 a las 16:50 hs",
         "checkout": "Martes 17 de Enero 2017 a las 16:50 hs",
         "status": "Activo",
-        "pay_title_text": "Operado por",
-        "payable_by": "algo aca",
-        "conditions_title_text": "Condiciones de la reserva",
-        "conditions": "alguna condicion",
-        "cancelation_title_text": "Politicas de cancelación",
-        "cancelation": "Desde: 16/11/2016 <br> Hasta: 18/11/2016",
+                
         "pre_footer_text": "<b>Recuerda que te hemos enviado el Voucher correspondiente a tu reserva 23158 para el car Ferrari. Bajaló desde <a href='#'>aqui.</a></b>",
         "header_link": "https://www.flyersconcierge.com/",
         "download_text_1": "Este e-mail fue envíado por Flyers Concierge App.",
@@ -200,8 +195,7 @@
         "checkin": "Martes 10 de Enero 2017 a las 16:50 hs",
         "checkout": "Martes 17 de Enero 2017 a las 16:50 hs",
         "status": "Activo",
-        "pay_title_text": "Operado por",
-        "payable_by": "algo aca",
+        
         "conditions_title_text": "Condiciones de la reserva",
         "conditions": "alguna condicion",
         "cancelation_title_text": "Politicas de cancelación",
