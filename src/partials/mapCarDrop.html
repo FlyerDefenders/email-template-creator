@@ -7,9 +7,11 @@
                 <strong>%%drop_off_text</strong>: %%drop_off <br>
                 <strong>%%address_text</strong>: %%drop_address <br>
             </p>
-            <center>
-                <img src="https://maps.googleapis.com/maps/api/staticmap?center=%%drop_latitude,%%drop_longitude&zoom=12&size=400x200&markers=color:red%7Clabel:H%7C%%drop_latitude,%%drop_longitude&key=%%apikey">
-            </center>
+            %%if_dropoff_map
+                <center>
+                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=%%drop_latitude,%%drop_longitude&zoom=12&size=400x200&markers=color:red%7Clabel:H%7C%%drop_latitude,%%drop_longitude&key=%%apikey">
+                </center>
+            %%endif_dropoff_map
         </columns>
     </row>
 </container>
