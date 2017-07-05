@@ -136,7 +136,7 @@
     },
     "car_cancel.html": {
         "title": "{% trans 'The reservation has been canceled!' %}",
-        "message": "{% blocktrans with contact_name=booking.contact_name car_name=car.name %}{{ contact_name }} your reservation at the car {{ car_name }} has been successfully aborted{% endblocktrans %}.",
+        "message": "{% blocktrans with contact_name=booking.contact_name car_name=car.name %}{{ contact_name }} your reservation at the car {{ car_name }} has been successfully aborted{% endblocktrans %}. {% if cancellation %}{% blocktrans with cancellation_value=cancellation.fc_price cancellation_currency=cancellation.currency %}According to the conditions of the reservation that you had selected the cost of cancellation is {{ cancellation_value }} {{ cancellation_currency }}{% endblocktrans %}{% endif %}",
         "cancel_status": "{% trans 'Canceled' %}",
         "status_text": "{% trans 'Status' %}",
         "car_image": "{{ car.image|safe }}",
@@ -214,7 +214,7 @@
     },
     "activity_cancel.html": {
         "title": "{% trans 'The reservation has been canceled!' %}",
-        "message": "{% blocktrans with contact_name=booking.contact_name activity_name=activity.name %}{{ contact_name }} your reservation at the activity {{ activity_name }} has been successfully aborted{% endblocktrans %}.",
+        "message": "{% blocktrans with contact_name=booking.contact_name activity_name=activity.name %}{{ contact_name }} your reservation at the activity {{ activity_name }} has been successfully aborted{% endblocktrans %}. {% if cancellation %}{% blocktrans with cancellation_value=cancellation.fc_price cancellation_currency=cancellation.currency %}According to the conditions of the reservation that you had selected the cost of cancellation is {{ cancellation_value }} {{ cancellation_currency }}{% endblocktrans %}.{% endif %}",
         "cancel_status": "{% trans 'Canceled' %}",
         "activity_image": "{{ activity.image|safe }}",
         "activity_name": "{{ activity.name }}",
@@ -229,8 +229,8 @@
         "date_text": "{% trans 'Date' %}",
         "date": "{{ booking.date|date }}",
         "cancellation_message": "{% if cancellation %}{% blocktrans with cancellation_value=cancellation.fc_price cancellation_currency=cancellation.currency %}According to the conditions of the reservation that you had selected the cost of cancellation is {{ cancellation_value }} {{ cancellation_currency }}{% endblocktrans %}.{% endif %}",
-        "status": "{% trans 'Canceled' %}",
         "status_text": "{% trans 'Status' %}",
+        "status": "{% trans 'Canceled' %}",                
         "activity_stars_level": "{% for rm in stars_level %}<img height='15px' width='15px;' src='static/emails/images/star.png' />{% endfor %}",
         "header_link": "{{ HOSTNAME_PROTOCOL }}",
         "download_text_1": "{% trans 'This email was sent by Flyers Concierge App' %}.",
