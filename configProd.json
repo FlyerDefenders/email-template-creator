@@ -35,7 +35,7 @@
         "if_map": "{% if latitude and longitude %}",
         "endif_map": "{% endif %}",
 
-        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.id hotel_name=booking.hotel_name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the hotel {{hotel_name}}. You must print it and show it at the hotel on the check in date. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free. <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
+        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.id hotel_name=booking.hotel_name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the hotel {{hotel_name}}. You must print it and show it at the hotel on the check in date. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
         "header_link": "{{ HOSTNAME_PROTOCOL }}",
         "download_text_1": "{% trans 'This email was sent by Flyers Concierge App' %}.",
         "download_text_2": "{% trans 'Download the App for free!' %}",
@@ -124,7 +124,7 @@
         "endif_dropoff_map": "{% endif %}",
         "pick_and_drop_title": "Pick and Drop off",
 
-        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.reservation_id car_name=car.name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the car {{car_name}}. You must print it and show it at the rental car agency counter on the vehicle pick up date. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free. <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
+        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.reservation_id car_name=car.name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the car {{car_name}}. You must print it and show it at the rental car agency counter on the vehicle pick up date. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
         "header_link": "{{ HOSTNAME_PROTOCOL }}",
         "download_text_1": "{% trans 'This email was sent by Flyers Concierge App' %}.",
         "download_text_2": "{% trans 'Download the App for free!' %}",
@@ -202,7 +202,7 @@
         "if_map": "{% if latitude and longitude %}",
         "endif_map": "{% endif %}",
 
-        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.reservation_id activity_name=activity.name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the activity {{activity_name}}. You must print it and show it on the day of entry. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free. <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
+        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.reservation_id activity_name=activity.name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the activity {{activity_name}}. You must print it and show it on the day of entry. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
         "header_link": "{{ HOSTNAME_PROTOCOL }}",
         "download_text_1": "{% trans 'This email was sent by Flyers Concierge App' %}.",
         "download_text_2": "{% trans 'Download the App for free!' %}",
@@ -281,8 +281,7 @@
         "cancelation": "{% if cancellations %}{% for cnx in cancellations %}{% trans 'From' %}: {{ cnx.from_date }}<BR>{% trans 'To' %}: {{ cnx.to_date }}<BR>{% trans 'Cost' %}: {{ cnx.value }} {{ cnx.currency }}<BR><BR>{% endfor %}{% else %}{% trans 'The selected rate does not allow changes or cancellations' %}.{% endif %}",
         "if_map": "{% if booking_data.lounge_detail.airport.location.latitude and booking_data.lounge_detail.airport.location.longitude %}",
         "endif_map": "{% endif %}",
-
-        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.id lounge_name=booking.lounge_name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the lounge {{lounge_name}}. You must print it and show it on the day of entry. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free. <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
+        "pre_footer_text": "<b>{% blocktrans with adobe_reader_url='https://get.adobe.com/reader/otherversions/' booking=booking.id lounge_name=booking.lounge_name %} Remember that we have sent you the voucher corresponding to your reservation {{booking}} for the lounge {{lounge_name}}. You must print it and show it on the day of entry. The voucher is in PDF format. If you don´t have an application to view this type of format, you can download the Adobe Reader for free <a href='{{ adobe_reader_url }}'>here</a> {% endblocktrans %}</b>",
         "header_link": "{{ HOSTNAME_PROTOCOL }}",
         "download_text_1": "{% trans 'This email was sent by Flyers Concierge App' %}.",
         "download_text_2": "{% trans 'Download the App for free!' %}",
