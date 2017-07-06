@@ -15,11 +15,6 @@
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
-
-    @media only screen and (max-width: #{$global-breakpoint}) {
-      padding-left: 10% !important;
-      font-size: 18px !important;
-    }
   }
 
   &__time {

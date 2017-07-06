@@ -31,8 +31,9 @@
     font-family: futuraLight;
     font-weight: bold;
     margin: 0;
+    font-size: $h5-font-size + 25;
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 45px !important;
+      font-size: $h5-font-size + 5;
     }
   }
 
@@ -53,28 +54,22 @@
 
   &__date {
     margin: 23px 0 0;
-    @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 18px !important;
-    }
   }
 
   &__time {
     margin: 0;
-    @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 18px !important;
-    }
   }
 
   &__gate {
     font-family: gil;
     @media only screen and (max-width: #{$global-breakpoint}) {
-      font-size: 25px !important;
+      font-size: $global-font-size;
     }
 
     &--title {
       font-family: gil;
       @media only screen and (max-width: #{$global-breakpoint}) {
-        font-size: 14px !important;
+        font-size: $global-font-size - 8;
       }
     }
   }
