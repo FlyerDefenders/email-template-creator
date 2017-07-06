@@ -78,30 +78,30 @@ a {
 
 @media only screen and (max-width: #{$global-breakpoint}) {
   h1 {
-    font-size: $h1-font-size - 5;
+    font-size: $h1-font-size - 5 !important;
   }
   h2 {
-    font-size: $h2-font-size - 5;
+    font-size: $h2-font-size - 5 !important;
   }
   h3 {
-    font-size: $h3-font-size - 5;
+    font-size: $h3-font-size - 5 !important;
   }
   h4 {
-    font-size: $h4-font-size - 5;
+    font-size: $h4-font-size - 5 !important;
   }
   h5 {
-    font-size: $h5-font-size - 5;
+    font-size: $h5-font-size - 5 !important;
   }
   h6 {
-    font-size: $h6-font-size - 5;
+    font-size: $h6-font-size - 5 !important;
   }
 
   a,
   p {
-    font-size: $global-font-size - 5;
+    font-size: $global-font-size - 5 !important;
   }
 
-  .text-small {font-size: 10px}
+  .text-small {font-size: 10px !important}
   .full-text { display: none !important}
   .split-text {display: block !important}
   .banner {
