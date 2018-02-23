@@ -240,5 +240,13 @@
         "text_after_button_2": "- Search all the information, maps and regulations of your destination airport.",
         "text_after_button_3": "- Get exclusive deals for the App in the reservation of hotels and activities.",
         "text_after_button_4": "- Keep your family and friends informed about your trip."
+    },
+    "base": {
+        "title": "Marketing",
+        "code-airport": "POS",
+        "name-airport": "Piarco International Airport",
+        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/piarco-airport.jpg",
+        "price-1": "1,5",
+        "price-2": "2,5"
     }
 }
