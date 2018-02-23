@@ -250,10 +250,10 @@
     },
     "base": {
         "title": "Marketing",
-        "code-airport": "{% iata %}",
-        "name-airport": "{% airport_name %}",
-        "image-airport": "{% airport_image  %}",
-        "price-1": "{% recurrent_revenue  %}", 
-        "price-2": "{% ancillary_capitalization %}"
+        "code-airport": "{{ iata }}",
+        "name-airport": "{{ airport_name }}",
+        "image-airport": "{{ airport_image  }}",
+        "price-1": "{{ recurrent_revenue  }}", 
+        "price-2": "{{ ancillary_capitalization }}"
     }
 }
