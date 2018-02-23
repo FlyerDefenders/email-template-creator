@@ -1,0 +1,61 @@
+.flyers {
+
+  p, h4, h2, h1, span {
+    font-family: Arial, sans-serif;
+  }
+
+  p , span {
+    font-size: 16px;
+  }
+
+  .text-right {
+    text-align: right
+  }
+
+  .title, .title-sub {
+    color: #ffffff;
+  }
+  
+  .title {
+    line-height: 0.8;
+    font-size: 65px;
+    margin-bottom: 0;
+    Margin-bottom: 0;
+  }
+
+  h4 {
+    font-weight: 700;
+    margin-top: 0;
+    Margin-top: 0;
+  }
+}
+
+.flyers-list {
+
+  p {
+    margin: 0px;
+    Margin: 0px;
+    margin-top: 0px;
+    Margin-top: 0px;
+    margin-bottom: 5px;
+    Margin-bottom: 5px;
+  }
+
+  .special {
+    margin: 0px;
+    Margin: 0px;
+    margin-top: 10px;
+    Margin-top: 10px;
+    margin-bottom: 12px;
+    Margin-bottom: 12px;
+    color: #2b6ec1;
+    font-weight: 600;
+  }
+}
+
+.p-b-0 {
+  .columns {
+    padding-bottom: 0px;
+    Padding-bottom: 0px;
+  }
+}

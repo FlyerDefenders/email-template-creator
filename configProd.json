@@ -247,5 +247,13 @@
         "text_after_button_2": "- {% trans 'Search all the information, maps and regulations of your destination airport.' %}",
         "text_after_button_3": "- {% trans 'Get exclusive deals for the App in the reservation of hotels and activities.' %}",
         "text_after_button_4": "- {% trans 'Keep your family and friends informed about your trip.' %}"
+    },
+    "base": {
+        "title": "Marketing",
+        "code-airport": "{% iata %}",
+        "name-airport": "{% airport_name %}",
+        "image-airport": "{% airport_image  %}",
+        "price-1": "{% recurrent_revenue  %}", 
+        "price-2": "{% ancillary_capitalization %}"
     }
 }
