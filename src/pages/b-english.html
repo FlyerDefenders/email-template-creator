@@ -1,20 +1,23 @@
 ---
 layout: marketing
-subject: base
+subject: base2
 ---
+
+{{>dedicatoria }}
 
 <container>
 
   <table cellpadding="0" cellspacing="0" border="0" height="250" width="100%" class="table-border">
     <tr>
-      <td background="%%image-airport"
-        bgcolor="#000000" width="620" height="255" valign="top">
+      <td background="%%image-airport" bgcolor="#000000" width="620" height="255" valign="top">
         <!--[if gte mso 9]>
         <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:620px;height:255px;">
           <v:fill type="tile" src="%%image-airport" color="#000000" />
           <v:textbox inset="0,0,0,0">
         <![endif]-->
         <div>
+
+
           <spacer size="65"></spacer>
           <row class="collapse flyers">
             <columns>
@@ -58,9 +61,8 @@ subject: base
       <h4>2- Global business model</h4>
       <spacer size="2"></spacer>
       <span>
-        Our innovative distribution business model for our App is structured 
-        to reach a disruptive growth and benefit all distributors of the App 
-        like Airports, Airlines and Airports WiFi providers with no investment
+        Our innovative distribution business model for our App is structured to reach a disruptive growth and benefit all distributors
+        of the App like Airports, Airlines and Airports WiFi providers with no investment
       </span>
     </columns>
   </row>
@@ -83,24 +85,14 @@ subject: base
         - 20% of the users market value at the IPO (3- 5 years)
       </p>
       <p class="special">
-        Est. Ancillary Capitalization (year 5): USD %%price-2 (MM)
+        Est. Ancillary capitalization (year 5): USD %%price-2 (MM)
       </p>
     </columns>
   </row>
 
-  {{>blockchain-technology
-    class-name="flyers table-border"
-    url-image="http://staging.ancillaries.flyersconcierge.com/media/icon_web/blockchain.jpg"
-  }}
-
-  {{>free-services
-    class-name="flyers flyers-list table-border"
-    background-color="#e2dedd"
-  }}
-
-  {{>paid-services
-    class-name="flyers flyers-list table-border"
-  }}
+  {{>blockchain-technology class-name="flyers table-border" url-image="http://staging.ancillaries.flyersconcierge.com/media/icon_web/blockchain.jpg"
+  }} {{>free-services class-name="flyers flyers-list table-border" background-color="#e2dedd" }} {{>paid-services class-name="flyers
+  flyers-list table-border" }}
 
   <row class="table-border">
     <columns>
@@ -109,7 +101,7 @@ subject: base
       </center>
     </columns>
   </row>
-  
+
   <wrapper bgcolor="#2b6ec1" class="table-border">
     <row>
       <columns>
@@ -118,3 +110,5 @@ subject: base
     </row>
   </wrapper>
 </container>
+
+{{>firma }}

@@ -14,6 +14,7 @@ import beep     from 'beepbeep';
 import colors   from 'colors';
 import jr       from 'gulp-json-replace';
 import prettify from 'gulp-html-prettify';
+const pdf = require('gulp-html-pdf');
 
 const $ = plugins();
 
@@ -36,6 +37,17 @@ gulp.task('prod',
 
 gulp.task('zip',
   gulp.series('build', zip));
+
+
+gulp.task('pdf',
+    gulp.series(pdfFunction));
+
+function pdfFunction() {
+  return gulp
+            .src('./dist/**/*')
+            .pipe(pdf())
+            .pipe(gulp.dest('pdf'));
+}
 
 // Delete the "prod" folder
 function cleanProd(done) {
@@ -90,7 +102,7 @@ function resetPages(done) {
 
 // Compile Sass into CSS
 function sass() {
-  return gulp.src('src/static/emails/scss/app.scss')
+  return gulp.src(['src/static/emails/scss/app.scss', 'src/static/emails/scss/pdf.scss'])
     .pipe($.if(!PRODUCTION, $.sourcemaps.init()))
     .pipe($.sass({
       includePaths: ['node_modules/foundation-emails/scss']

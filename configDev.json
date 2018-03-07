@@ -241,12 +241,48 @@
         "text_after_button_3": "- Get exclusive deals for the App in the reservation of hotels and activities.",
         "text_after_button_4": "- Keep your family and friends informed about your trip."
     },
-    "base": {
+    "b-english": {
         "title": "Marketing",
-        "code-airport": "POS",
-        "name-airport": "Piarco International Airport",
-        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/piarco-airport.jpg",
-        "price-1": "1,5",
-        "price-2": "2,5"
+        "code-airport": "CVG",
+        "name-airport": "Kentucky International Airport jose",
+        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
+        "price-1": "0.37",
+        "price-2": "2.3"
+    },
+    "b-spanish": {
+        "title": "Marketing spanish",
+        "code-airport": "CVG",
+        "name-airport": "Kentucky International Airport",
+        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
+        "price-1": "0.37",
+        "price-2": "2.3"
+    },
+    "l-2-english": {
+        "title": "Marketing dos lineas",
+        "code-airport": "CVG",
+        "name-airport": "Kentucky International Airport Kentucky International Airport",
+        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
+        "price-1": "0.37",
+        "price-2": "2.3"
+    },
+    "l-2-spanish": {
+        "title": "Marketing dos lineas",
+        "code-airport": "CVG",
+        "name-airport": "Kentucky International Airport Kentucky International Airport",
+        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
+        "price-1": "0.37",
+        "price-2": "2.3"
+    },
+    "pdf-english": {
+        "title": "PDF",
+        "banner": "static/emails/images/pdf/170.jpeg",
+        "slider": "static/emails/images/pdf/509.jpeg",
+        "imageDos": "static/emails/images/pdf2/509.jpeg"
+    },
+    "pdf-spanish": {
+        "title": "PDF",
+        "banner": "static/emails/images/pdf/170.jpeg",
+        "slider": "static/emails/images/pdf/509.jpeg",
+        "imageDos": "static/emails/images/pdf2/509.jpeg"
     }
 }

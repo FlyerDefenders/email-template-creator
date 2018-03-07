@@ -248,12 +248,48 @@
         "text_after_button_3": "- {% trans 'Get exclusive deals for the App in the reservation of hotels and activities.' %}",
         "text_after_button_4": "- {% trans 'Keep your family and friends informed about your trip.' %}"
     },
-    "base": {
+    "b-english": {
         "title": "Marketing",
         "code-airport": "{{ iata }}",
         "name-airport": "{{ airport_name }}",
         "image-airport": "{{ airport_image  }}",
-        "price-1": "{{ recurrent_revenue  }}", 
+        "price-1": "{{ recurrent_revenue  }}",
         "price-2": "{{ ancillary_capitalization }}"
+    },
+    "b-spanish": {
+        "title": "Marketing spanish",
+        "code-airport": "{{ iata }}",
+        "name-airport": "{{ airport_name }}",
+        "image-airport": "{{ airport_image  }}",
+        "price-1": "{{ recurrent_revenue  }}",
+        "price-2": "{{ ancillary_capitalization }}"
+    },
+    "l-2-english": {
+        "title": "Marketing",
+        "code-airport": "{{ iata }}",
+        "name-airport": "{{ airport_name }}",
+        "image-airport": "{{ airport_image  }}",
+        "price-1": "{{ recurrent_revenue  }}",
+        "price-2": "{{ ancillary_capitalization }}"
+    },
+    "l-2-spanish": {
+        "title": "Marketing",
+        "code-airport": "{{ iata }}",
+        "name-airport": "{{ airport_name }}",
+        "image-airport": "{{ airport_image  }}",
+        "price-1": "{{ recurrent_revenue  }}",
+        "price-2": "{{ ancillary_capitalization }}"
+    },
+    "pdf-english": {
+        "title": "PDF",
+        "banner": "{{ pdf_image_1 }}",
+        "slider": "{{ pdf_image_2 }}",
+        "imageDos": "{{ pdf_image_3 }}"
+    },
+    "pdf-spanish": {
+        "title": "PDF",
+        "banner": "{{ pdf_image_1 }}",
+        "slider": "{{ pdf_image_2 }}",
+        "imageDos": "{{ pdf_image_3 }}"
     }
 }
