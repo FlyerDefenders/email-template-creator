@@ -241,9 +241,23 @@
         "text_after_button_3": "- Get exclusive deals for the App in the reservation of hotels and activities.",
         "text_after_button_4": "- Keep your family and friends informed about your trip."
     },
+    "ceo": {
+        "title": "Marketing",
+        "code-airport": "CVG",
+        "contact-name": "MR",
+        "first-name": "JOSE",
+        "last-name": "MARQUEZ",
+        "name-airport": "Kentucky International Airport jose",
+        "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
+        "price-1": "0.37",
+        "price-2": "2.3"
+    },
     "b-english": {
         "title": "Marketing",
         "code-airport": "CVG",
+        "contact-name": "MR",
+        "first-name": "JOSE",
+        "last-name": "MARQUEZ",
         "name-airport": "Kentucky International Airport jose",
         "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
         "price-1": "0.37",
@@ -252,6 +266,9 @@
     "b-spanish": {
         "title": "Marketing spanish",
         "code-airport": "CVG",
+        "contact-name": "SE#OR",
+        "first-name": "JOSE",
+        "last-name": "MARQUEZ",
         "name-airport": "Kentucky International Airport",
         "image-airport": "http://staging.ancillaries.flyersconcierge.com/media/icon_web/cincin.jpg",
         "price-1": "0.37",
