@@ -45,7 +45,7 @@ function cleanProd(done) {
 function buildProd() {
   return gulp.src('dist/**/*')
     .pipe($.replace('static/', '{{ HOSTNAME_PROTOCOL }}/static/'))
-    .pipe($.replace('<!-- <language> -->', '{% load static %}{% load i18n %}{% if not LANGUAGE_CODE %} {% get_current_language as LANGUAGE_CODE %}{% endif %}'))
+    .pipe($.replace('<!-- <language> -->', '{% load static %}{% load i18n %}{% load order_status_language %}{% if not LANGUAGE_CODE %} {% get_current_language as LANGUAGE_CODE %}{% endif %}'))
     .pipe(gulp.dest('./prod'));
 }
 
