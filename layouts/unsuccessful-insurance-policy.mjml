@@ -1,0 +1,67 @@
+<mjml>
+  <mj-head>
+    <mj-title>The insurance policy has not been successful</mj-title>
+    <mj-all font-family="Helvetica" />
+  </mj-head>
+  <mj-body background-color="#f3f2f3">
+    <mj-section background-color="#395ec2" vertical-align="middle">
+      <mj-column>
+        <mj-image src="https://www.flyersconcierge.com/static/emails/images/logo.png" />
+      </mj-column>
+      <mj-column>
+        <mj-social align="center" padding-top="22px">
+          <mj-social-element href="https://www.facebook.com/flyersconcierge" icon-size="25px" src="http://staging.ancillaries.flyersconcierge.com/static/emails/images/social-icons/face.png" />
+          <mj-social-element href="https://twitter.com/flyersconcierge" icon-size="25px" src="http://staging.ancillaries.flyersconcierge.com/static/emails/images/social-icons/twitter.png" />
+          <mj-social-element href="https://youtube.com/c/Flyersconcierge" icon-size="25px" src="http://staging.ancillaries.flyersconcierge.com/static/emails/images/social-icons/youtube.png" />
+          <mj-social-element href="http://blog.flyersconcierge.com/" icon-size="25px" src="http://staging.ancillaries.flyersconcierge.com/static/emails/images/social-icons/wordpress.png" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text align="left" font-size="24px" color="#2B6EC1" font-weight="bold">
+          The insurance policy has not been successful!
+        </mj-text>
+        <mj-text font-size="14px">
+          The insurance policy paid has not been confirmed for some reason.
+        </mj-text>
+        <mj-spacer height="40px" />
+        <mj-text font-size="24px" font-weight="bold" color="red">
+          No confirmed
+        </mj-text>
+        <mj-text line-height="24px">
+          <ul>
+            <li>Insurance policy number: 6425</li>
+            <li>Price: 45,00 COP</li>
+            <li>Status: <span style="color: red">No confirmed</span></li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text align="center" line-height="18px">
+          <b>Please contact FlyersConcierge in</b>
+          <br>
+          <a href="https://www.flyersconcierge.com/support/">https://www.flyersconcierge.com/support/</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#e3e3e3" border-top="4px solid #395ec2" border-bottom="8px solid #395ec2">
+      <mj-column width="100%">
+        <mj-text align="center">
+          <p>This email was sent by Flyers Concierge App.</p>
+          <h1 style="color: #2B6EC1">Download the App for free!</h1>
+        </mj-text>
+      </mj-column>
+      <mj-group>
+        <mj-column width="50%">
+          <mj-image href="https://itunes.apple.com/us/app/flyers-concierge/id1035360024?mt=8" fluid-on-mobile="true" src="http://staging.ancillaries.flyersconcierge.com/static/emails/images/market_badges/apple_market_en.png" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image href="https://play.google.com/store/apps/details?id=com.flyersconcierge.tracker&hl=en" fluid-on-mobile="true" src="http://staging.ancillaries.flyersconcierge.com/static/emails/images/market_badges/android_market_en.png" alt="" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>
